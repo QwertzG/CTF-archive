@@ -1,7 +1,7 @@
 ## Challenge Overview
-**Category:** OSINT
-**Difficulty:** Easy
-**Tools Used:** Google
+**Category:** OSINT  
+**Difficulty:** Easy  
+**Tools Used:** Google  
 ### Challenge Description
 >all you need to know is that he's faster than light
 ### Flag format
