@@ -1,5 +1,7 @@
-#reverse 
-## Challenge Description
+## Challenge Overview
+**Category:** Reverse
+**Difficulty:** Easy
+**Tools Used:** Ghidra
 >Why should we trust the kernel mode Syscalls to handle the errors ?
 ### Files
 [blank](https://github.com/QwertzG/CTF-archive/blob/86bf36b72a474049507132b3a14a71aa62eb8326/nexusCTF%202025/files/blank)
