@@ -1,14 +1,14 @@
 ## Challenge Overview
-**Category:** Reverse
-**Difficulty:** Medium
-**Tools Used:** Ghidra, python
+**Category:** Reverse  
+**Difficulty:** Medium  
+**Tools Used:** Ghidra, python  
 ### Challenge Description
 > The forest is no longer just watched. 
 > Now, every step you take is measured.  
 > Every wrong move is quietly absorbed by the trees.  
 > Only those who truly understand the pattern may pass.
 ### Files
-[link the files]()
+[HuntMe3](https://github.com/QwertzG/CTF-archive/blob/ba00c18da28d443a8cb5454da250b89c0798db5c/nexusCTF%202025/files/HuntMe3)
 ## My Solution
 Opening the file in Ghidra we see a lot of encryption functions, but some of these are red herrings.
 ```c

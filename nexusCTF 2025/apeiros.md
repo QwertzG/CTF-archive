@@ -35,9 +35,6 @@ It also has a lot of zero-width characters like `\u200b`.
 To remove all these characters and replace the macros back to normal, i wrote this python script
 ```python
 #!/usr/bin/env python3
-"""
-CTF Decryptor - Complete deobfuscation with identifier fixing
-"""
 import re
 
 # Read the file
@@ -196,10 +193,10 @@ The program seems to be using some sort of state machine which starts at `1337` 
 Tracking the `if` statement checks, we can build the flag one by one.  
 The state cycle goes as follows: 1337 $\to$ 404 $\to$ 90210 $\to$ 8008 $\to$ 555 $\to$ 666 (end)  
 1337 $\to$ `nexus{`  
-404 $\to$ `pr3pr0c`
-90210 $\to$ `3ss0r_`
-8008 $\to$ `4r3_und3r
-555$\to$ `3st1m4t3d}`
+404 $\to$ `pr3pr0c`  
+90210 $\to$ `3ss0r_`  
+8008 $\to$ `4r3_und3r`  
+555$\to$ `3st1m4t3d}`  
 ### Final flag
 ```perl
 nexus{pr3pr0c3ss0r_4r3_und3r3st1m4t3d}
